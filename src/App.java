@@ -16,6 +16,18 @@ public class App {
      nodo3.next=nodo4; //36->31
      nodo4.next=nodo5; //31->25
 
+
+    //Aqui es par presentar los valores que guarda cada nodo
+
+    // nodo1.data ----> Para presentar el valor que guarda el nodo
+    // nodo1.next.data
+
+     /* System.out.println(nodo1.data + " su siguiente es " + nodo1.next.data);
+     System.out.println(nodo2.data + " su siguiente es " + nodo2.next.data);
+     System.out.println(nodo3.data + " su siguiente es " + nodo3.next.data);
+     System.out.println(nodo4.data + " su siguiente es " + nodo4.next.data);
+     System.out.println(nodo5.data + " su siguiente es " + nodo5.next.data);
+     */
      //RECORRER Y MOSTRAR LOS NODOS
 
      //Creamos un objecto de tipo Nodo e indocamos que cual es el primero
@@ -30,5 +42,7 @@ public class App {
 
 
     }
+
+
 
 }
